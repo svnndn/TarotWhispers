@@ -1,0 +1,31 @@
+.comment {
+    display: flex;
+    align-items: center;
+    background-color: rgba(11, 11, 11, 0.7);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comment h2 {
+    color: #f4f4f4;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.comment a {
+    color: #f4f4f4;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.comment p {
+    color: #f4f4f4;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.comment-details {
+    width: 1800px;
+}

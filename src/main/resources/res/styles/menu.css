@@ -1,0 +1,48 @@
+.menu-wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(11, 11, 11, 0.7);
+    padding: 10px;
+    z-index: 1000;
+    margin-right: 10px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-items {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-item {
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.menu-item:hover {
+    background-color: white;
+    color: black;
+}
+
+.no-center {
+    justify-content: initial;
+    align-items: initial;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
